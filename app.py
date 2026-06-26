@@ -85,15 +85,15 @@ p, span, label, div, h1, h2, h3, h4, h5, h6 {
 .stRadio label { color: #90a4ae !important; }
 /* Widget values and inputs */
 .stTextInput input, .stNumberInput input, .stTextArea textarea {
-    background: rgba(255,255,255,0.06) !important;
-    color: #e0e7ef !important;
-    border: 1px solid rgba(30,136,229,0.3) !important;
+    background: #ffffff !important;
+    color: #000000 !important;
+    border: 1px solid rgba(30,136,229,0.6) !important;
     border-radius: 10px !important;
 }
 .stSelectbox > div > div {
-    background: rgba(255,255,255,0.06) !important;
-    border: 1px solid rgba(30,136,229,0.3) !important;
-    color: #e0e7ef !important;
+    background: #ffffff !important;
+    border: 1px solid rgba(30,136,229,0.6) !important;
+    color: #000000 !important;
     border-radius: 10px !important;
 }
 /* Metric values */
@@ -260,14 +260,50 @@ p, span, label, div, h1, h2, h3, h4, h5, h6 {
 
 /* ── Streamlit widget overrides ── */
 .stTextInput input, .stNumberInput input, .stSelectbox select {
-    background: rgba(255,255,255,0.06) !important;
-    border: 1px solid rgba(30,136,229,0.3) !important;
+    background: #ffffff !important;
+    border: 1px solid rgba(30,136,229,0.6) !important;
     border-radius: 10px !important;
-    color: #e0e7ef !important;
+    color: #000000 !important;
 }
 .stTextInput input:focus, .stNumberInput input:focus {
     border-color: #1e88e5 !important;
     box-shadow: 0 0 0 3px rgba(30,136,229,0.2) !important;
+}
+
+/* Fix ALL input types - black text on white background */
+input, textarea, select,
+[data-baseweb="input"] input,
+[data-baseweb="textarea"] textarea,
+[data-baseweb="select"] div,
+.stNumberInput input,
+.stTextInput input,
+.stTextArea textarea,
+[data-testid="stNumberInput"] input,
+[data-testid="stTextInput"] input {
+    color: #000000 !important;
+    background-color: #ffffff !important;
+    -webkit-text-fill-color: #000000 !important;
+}
+
+/* Fix placeholder text */
+input::placeholder, textarea::placeholder {
+    color: #888888 !important;
+    -webkit-text-fill-color: #888888 !important;
+    opacity: 1 !important;
+}
+
+/* Fix selectbox dropdown text */
+[data-baseweb="select"] span,
+[data-baseweb="select"] div,
+.stSelectbox div[data-baseweb="select"] > div {
+    color: #000000 !important;
+    background-color: #ffffff !important;
+}
+
+/* Fix number input spinner buttons */
+[data-testid="stNumberInput"] button {
+    color: #000000 !important;
+    background-color: #f0f0f0 !important;
 }
 
 .stButton > button {
