@@ -1,0 +1,86 @@
+[33mcommit 24eda6f01c7ee6fccbe034c8aead97819563fba4[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: animeshkeche <animeshkeche@gmail.com>
+Date:   Sat Jun 13 12:41:33 2026 +0530
+
+    Update reporting and chart functionality with new database table and dark themes
+
+[33mcommit c362f52d6f1a80ae4c8158987a2896208fef6001[m
+Author: animeshkeche <animeshkeche@gmail.com>
+Date:   Sat Jun 13 12:36:29 2026 +0530
+
+    Add README
+
+[33mcommit 12ba33efbcfe06e67b2afde9d30c013ab31b26c2[m
+Author: animeshkeche <animeshkeche@gmail.com>
+Date:   Sat Jun 13 12:34:03 2026 +0530
+
+    Add README
+
+[33mcommit d99f5b1b47365a782f90f97c008010bc945b617b[m
+Author: Animesh Keche <71128527+animeshkeche@users.noreply.github.com>
+Date:   Sat Jun 13 12:31:51 2026 +0530
+
+    Create README.md
+
+[33mcommit cd825707097890d5211e64bfb99ddaca3ede61c6[m
+Author: animeshkeche <animeshkeche@gmail.com>
+Date:   Sat Jun 13 12:26:48 2026 +0530
+
+    deleted
+
+[33mcommit 071c256160553380a014504ffffbedea5b1cbc49[m
+Author: animesh <animeshkeche@gmail.com>
+Date:   Sun May 31 10:50:40 2026 +0530
+
+    first commit
+
+[33mcommit 3437ba69bf37604056c4c72b54f3195bff89a00c[m[33m ([m[1;31mgitsafe-backup/main[m[33m)[m
+Author: adityasta47 <55232682-adityasta47@users.noreply.replit.com>
+Date:   Tue May 5 09:23:40 2026 +0000
+
+    Update reporting and chart functionality with a new database table and dark themes
+    
+    Implement a `reports` table in `database.py` for tracking generated reports, add methods for saving and retrieving report records. Modify `monitoring.py` and `explainability.py` to use a dark Plotly theme for charts. Update `reporting.py` to include the new report tracking functionality.
+    
+    Replit-Commit-Author: Agent
+    Replit-Commit-Session-Id: 205f1817-590c-45bb-8d39-cb5470381d93
+    Replit-Commit-Checkpoint-Type: full_checkpoint
+    Replit-Commit-Event-Id: b3a4a112-f925-4694-8141-1e080beacfa7
+    Replit-Commit-Screenshot-Url: https://storage.googleapis.com/screenshot-production-us-central1/949aec36-d145-48af-8a00-e0d74fd02040/205f1817-590c-45bb-8d39-cb5470381d93/lHAJ7dK
+    Replit-Helium-Checkpoint-Created: true
+
+[33mcommit 8522de1ceaf95195327ce704a1ba090b62c2662f[m
+Author: adityasta47 <55232682-adityasta47@users.noreply.replit.com>
+Date:   Tue May 5 09:14:43 2026 +0000
+
+    Make the application interface adapt to any device size
+    
+    Update CSS and page configuration to ensure the application is fully responsive across all device breakpoints, including mobile, tablet, and desktop.
+    
+    Replit-Commit-Author: Agent
+    Replit-Commit-Session-Id: 205f1817-590c-45bb-8d39-cb5470381d93
+    Replit-Commit-Checkpoint-Type: full_checkpoint
+    Replit-Commit-Event-Id: 1b7e62fb-bbaa-4ecb-b07b-bd69388ec98d
+    Replit-Commit-Screenshot-Url: https://storage.googleapis.com/screenshot-production-us-central1/949aec36-d145-48af-8a00-e0d74fd02040/205f1817-590c-45bb-8d39-cb5470381d93/MoHSiyK
+    Replit-Helium-Checkpoint-Created: true
+
+[33mcommit baa6d45aad6c79b56f0aefb7e4e15f6d0529a3dd[m
+Author: adityasta47 <55232682-adityasta47@users.noreply.replit.com>
+Date:   Tue May 5 08:46:40 2026 +0000
+
+    Integrate CNN for medical image analysis and enhance UI with dark theme
+    
+    Add a new medical imaging page with CNN analysis capabilities, a comprehensive dark theme UI overhaul, and database updates for storing image scan results.
+    
+    Replit-Commit-Author: Agent
+    Replit-Commit-Session-Id: 205f1817-590c-45bb-8d39-cb5470381d93
+    Replit-Commit-Checkpoint-Type: full_checkpoint
+    Replit-Commit-Event-Id: 372ec7ee-abb9-41d7-bb61-1b66d094d0b9
+    Replit-Commit-Screenshot-Url: https://storage.googleapis.com/screenshot-production-us-central1/949aec36-d145-48af-8a00-e0d74fd02040/205f1817-590c-45bb-8d39-cb5470381d93/KOyF4rx
+    Replit-Helium-Checkpoint-Created: true
+
+[33mcommit b2ffee6a815be94bbe96c4daeda40b8da0e4fba2[m
+Author: adityasta47 <55232682-adityasta47@users.noreply.replit.com>
+Date:   Tue May 5 08:34:03 2026 +0000
+
+    Initial commit
