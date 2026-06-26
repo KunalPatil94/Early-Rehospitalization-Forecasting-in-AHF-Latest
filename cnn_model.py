@@ -226,7 +226,7 @@ class MedicalImageCNN:
     def __init__(self):
         self.extractor = CNNFeatureExtractor(input_size=(128, 128))
         self.classifier = LogisticRegression(
-            max_iter=2000, multi_class='multinomial',
+            max_iter=2000,
             solver='lbfgs', C=1.0, random_state=42
         )
         self.scaler = StandardScaler()
